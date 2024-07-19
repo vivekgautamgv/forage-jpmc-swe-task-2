@@ -1,0 +1,35 @@
+From c18c1d1ba4072c987cd38f6b2d3ad3de5c664855 Mon Sep 17 00:00:00 2001
+From: vivekgautamgv <gautamvivekgv@gmail.com>
+Date: Fri, 19 Jul 2024 22:35:42 +0530
+Subject: [PATCH] Remaining changes
+
+---
+ src/App.tsx   | 2 +-
+ src/Graph.tsx | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/App.tsx b/src/App.tsx
+index 52b94b1..ab359c8 100755
+--- a/src/App.tsx
++++ b/src/App.tsx
+@@ -85,4 +85,4 @@ class App extends Component<{}, IState> {
+   }
+ }
+ 
+-export default App;
++export default App;
+\ No newline at end of file
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index 2b0cb17..28ed285 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -77,4 +77,4 @@ class Graph extends Component<IProps, {}> {
+     }
+ }
+ 
+-export default Graph;
++export default Graph;
+\ No newline at end of file
+-- 
+2.38.0.windows.1
+
