@@ -10,7 +10,9 @@ interface IState {
   data: ServerRespond[],
   showGraph: boolean,
 }
-
+{
+  data: [],
+}
 /**
  * The parent element of the react app.
  * It renders title, button and Graph react element.
